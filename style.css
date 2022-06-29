@@ -1,14 +1,12 @@
 body {
-	margin: 0;
-	padding: 0;
-	font-family: Verdana, sans-serif;
-	background-color: darkgray;
-	font-style:italic;
-	
+	margin: 0px;
 }
-
-p {
-	color: rgb(255, 0, 0);
-	font-size: 20px;
-	
+/* Div - (main-login) = para chamar uma class sempre usar o (.)*/
+.main-login {
+	width: 100vw; /*(vw é a % da viwport)*/
+	height: 100vh;
+	background-color: #201b2c;
+	display: flex; /*faz com que fique lado a lado*/
+	justify-content: center;
+	align-items: center;
 }
