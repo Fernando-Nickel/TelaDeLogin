@@ -39,7 +39,7 @@ body {
 	align-items: center;
 	flex-direction: column;
 	padding: 30px 35px;
-	background: #3f2841;
+	background: #2f2841;
 	border-radius: 20px;
 	box-shadow: 0px 10px 40px #00000056;
 }
@@ -51,14 +51,14 @@ body {
 }
 /*Estilo textfield*/
 .textfield {
-display: flex;
-flex-direction: column;
-align-items: flex-start;	
-justify-content: center;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;	
+	justify-content: center;
 }
 .textfield > input {
 	width: 100%;
-	border: nene;
+	border: none;
 	border-radius: 10px;
 	padding: 15px;
 	background: #514869;
@@ -66,5 +66,5 @@ justify-content: center;
 	font-size: 12pt;
 	box-shadow: 0px 10px 40px #00000056;
 	outline: none;
-
-}
+	box-sizing: border-box;
+}	
