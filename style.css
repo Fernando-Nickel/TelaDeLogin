@@ -44,7 +44,7 @@ body * {
 
 /*Estilo para o Card*/
 .card-login {
-	width: 60%;
+	width: 20%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
