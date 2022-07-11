@@ -1,10 +1,12 @@
+/** @format */
+
 @import url('https://fonts.googleapis.com/css2? family= Gulzar & display=swap');
 
 body {
 	margin: 0;
 	font-family: 'Gulzar', sans-serif;
 }
-body *{
+body * {
 	box-sizing: border-box;
 	border: 0;
 }
@@ -36,18 +38,8 @@ body *{
 }
 
 /*logotipo*/
-.left-logotipo{
+.left-logotipo {
 	width: 35vw;
-}
-
-/*Estilo para a .rigth-login*/
-.rigth-login {
-	width: 50vw;
-	height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	
 }
 
 /*Estilo para o Card*/
@@ -74,7 +66,7 @@ body *{
 .textfield {
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start;	
+	align-items: flex-start;
 	justify-content: center;
 	margin: 10px 0px;
 }
@@ -91,15 +83,15 @@ body *{
 	outline: none;
 	box-sizing: border-box;
 }
-.textfield > label{
+.textfield > label {
 	color: #f0ffffde;
 	margin-bottom: 10px;
 }
 /*textfield - placeholder*/
-.textfield > input::placeholder{
+.textfield > input::placeholder {
 	color: #f0ffff94;
 }
-.btn-login{
+.btn-login {
 	width: 100%;
 	padding: 16px 0px;
 	margin: 25px;
@@ -115,33 +107,32 @@ body *{
 	box-shadow: 0px 10px 40px -12px #00ff8052;
 }
 
-
 /*media-arquivos - ajudam na responssabilidade da página*/
-@media only screen and (max-width: 950px){
-	.card-login{
-		width: 85%
+@media only screen and (max-width: 950px) {
+	.card-login {
+		width: 85%;
 	}
 }
 
-@media only screen and (max-width: 600px){
-	.main-login{
+@media only screen and (max-width: 600px) {
+	.main-login {
 		flex-direction: column;
 	}
-	.left-login > h1{
+	.left-login > h1 {
 		display: none;
 	}
-	.left-login{
+	.left-login {
 		width: 100%;
 		height: auto;
 	}
-	.right-login{
+	.right-login {
 		width: 100%;
 		height: auto;
 	}
-	.left-logotipo{
+	.left-logotipo {
 		width: 50vw;
 	}
-	.card-login{
-		width: 90
+	.card-login {
+		width: 90;
 	}
 }
